@@ -1,0 +1,105 @@
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经验",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "个人评价"
+    },
+    "avatar": {
+        "src": "https://xuezhacv.cn/wp-content/uploads/2023/02/微信图片_20230204003214.jpg",
+        "hidden": false
+    },
+    "profile": {
+        "name": "洪湛",
+        "email": "1243137612@qq.com",
+        "mobile": "16601151778",
+        "github": "https://github.com/godoforange",
+        "workExpYear": "在读硕士研究生"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2017.09.01",
+                "2021.06.30"
+            ],
+            "school": "江苏科技大学",
+            "major": "计算机科学与技术",
+            "academic_degree": "本科"
+        },
+        {
+            "edu_time": [
+                "2021.09.01",
+                "至今"
+            ],
+            "school": "中国石油大学(北京)",
+            "major": "计算机科学与技术",
+            "academic_degree": "硕士"
+        }
+    ],
+    "awardList": [
+        {
+            "award_info": "英语 CET6",
+            "award_time": "2021"
+        },
+        {
+            "award_info": "蓝桥杯 国二",
+            "award_time": "2018.09"
+        },
+        {
+            "award_info": "Bibili 科技区UP主2w粉丝",
+            "award_time": "2019.10"
+        },
+        {
+            "award_info": "美国大学生数学建模大赛 二等奖",
+            "award_time": "2020.10"
+        }
+    ],
+    "workExpList": [
+        {
+            "company_name": "眷成智能科技有限公司",
+            "department_name": "研发部",
+            "work_time": [
+                "2022.02",
+                null
+            ],
+            "work_desc": "1. 担任研发部全栈工程师。\r\n2. 为客户提供RPA自动化办公脚本，如CRM聊天机器人，证据搜集爬虫，自动取证脚本，文书生成工具等，技术栈主要为爬虫及逆向技术。\r\n 3.虚拟数字人项目（硕士研究方向），使用pytorch对设计出的神经网络进行实现，并训练(实现了自动编码器等功能)。\r\n 4. 论坛咨询类app，对discuzQ进行二次开发（后端php，后台前端技术栈为React，客户端为taro和uniapp），已上架微信/抖音/H5平台的论坛咨询类小程序。"
+        },
+        {
+            "company_name": "江苏润通物联科技有限公司",
+            "department_name": "研发部",
+            "work_time": [
+                "2021.04",
+                "2021.08"
+            ],
+            "work_desc": "1. 担任研发部全栈工程师。\r\n 2. 负责摄像头检测算法容器的开发，使用Springboot对接容器的RPC接口，并且使用docker对算法环境进行打包并部署上线，。\r\n 3. 负责《点巡检》项目其中的工单管理模块，移动端前端及后端的增删改查。"
+        }
+    ],
+    "skillList": [],
+    "projectList": [
+        {
+            "project_name": "虚拟数字人项目",
+            "project_role": "项目发起人",
+            "project_time": "2021.07 - 2021.11",
+            "project_desc": "虚拟数字人项目是基于音频驱动的人脸视频合成技术，该技术能够在仅拍摄一次视频的情况下，输入说话者的音频，就可以合成出目标人物说话的视频，并具有极高的真实性和逼真度，使拍摄者能够在不出镜的情况下完成拍摄任务。",
+            "project_content": "此项目是我的硕士研究方向，公司比较开放，就顺便把这个技术应用到了项目中去。设计出了可以说话的虚拟人，真实度和清晰度很高。也因为这个项目对AI部署有了更深的认识。"
+        },
+        {
+            "project_name": "uni-lowcode低代码开发平台",
+            "project_role": "项目发起人",
+            "project_time": "2021 - 至今",
+            "project_desc": "uni-lowcode（原rtvue-lowcode）一款基于uniapp框架和uview组件库的低代码开发平台，项目提供可视化拖拽编辑器，采用MIT开源协议，适用于app、小程序等项目开发",
+            "project_content": "在开源项目中为发起者，负责设计uni-lowcode的前端及后端，前端主要功能有拖拽，基于json的配置动态组件，一键生成页面，预览，在线调试等功能。后端主要功能是保存用户页面配置和多人协作。"
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "🌱 全栈开发工程师，熟悉前后端技术栈。熟悉图像合成和计算机视觉算法。 读书期间参与创业，有丰富的交流经验，为很多企业解决过技术问题。\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。\n 2.全栈开发经验: 熟悉前后端应用开发，熟悉增删改查，擅长对软件项目的二次开发。\n "
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
