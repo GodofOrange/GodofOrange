@@ -4,7 +4,7 @@
         "workExpList": "工作经历",
         "projectList": "项目经验",
         "skillList": "个人技能",
-        "awardList": "更多信息",
+        "awardList": "获奖信息",
         "workList": "个人作品",
         "aboutme": "个人评价"
     },
@@ -55,6 +55,10 @@
         {
             "award_info": "美国大学生数学建模大赛 二等奖",
             "award_time": "2020.10"
+        },
+        {
+            "award_info": "发明专利 公告号：CN111158668A",
+            "award_time": "2020.10"
         }
     ],
     "workExpList": [
@@ -84,33 +88,40 @@
             "project_role": "项目发起人",
             "project_time": "2022.07 - 2022.11",
             "project_desc": "虚拟数字人项目是基于音频驱动的人脸视频合成技术，该技术能够在仅拍摄一次视频的情况下，输入说话者的音频，就可以合成出目标人物说话的视频，并具有极高的真实性和逼真度，使拍摄者能够在不出镜的情况下完成拍摄任务。",
-            "project_content": "此项目是我的硕士研究方向，基于pytorch 1.8实现，显卡使用V100+A4000型显卡。其主要原理是基于改进的自编码器设计出了可以说话的虚拟人，生成的视频真实度和清晰度很高。也因为这个项目对AI部署有了更深的认识。"
+            "project_content": "此项目是我的硕士研究方向，代码实现基于pytorch 1.8，后端为flask+MYSQL，显卡使用V100+A4000型显卡。其中我主要提供算法的设计和接口的开发，其主要原理是基于改进的自编码器设计出了可以说话的虚拟人，生成的视频真实度和清晰度很高。"
         },
         {
-            "project_name": "uni-lowcode低代码开发平台(git 500+⭐)",
+            "project_name": "uni-lowcode低代码开发平台(500+⭐)",
             "project_role": "项目发起人",
             "project_time": "2021.07 - 至今",
-            "project_desc": "uni-lowcode（github和gitee加起来一共500star）一款基于uniapp框架和uview组件库的低代码开发平台，项目提供可视化拖拽编辑器，采用MIT开源协议，适用于app、小程序等项目开发",
-            "project_content": "前端主要使用uniapp框架+uview组件库开发，后端使用nodejs + fastify + mongodb +jwt搭建，完成了基于json的配置动态组件，一键生成页面，预览，在线调试等功能。后端主要功能是保存用户页面配置和多人协作。"
+            "project_desc": "uni-lowcode（github和gitee加起来一共500+star）一款基于uniapp框架和uview组件库的低代码开发平台，项目提供可视化拖拽编辑器，采用MIT开源协议，适用于app、小程序等项目开发",
+            "project_content": "在项目中主要负责项目的框架的架构和前后端开发，整体项目为独立完成，项目前端主要使用uniapp框架+uview组件库开发，后端使用nodejs + fastify + mongodb +jwt搭建，完成了基于json的配置动态组件，一键生成页面，预览，在线调试等功能。后端主要功能是保存用户页面配置和多人协作。"
         },
         {
             "project_name":"企业内部OA系统",
             "project_role": "主要负责人",
             "project_time":"2022 - 至今",
             "project_desc":"本OA用于内部办案流程系统，文书生成，导入导出Excel，RPA流程监控，用户表单提交等日常工作流。",
-            "project_content":"此OA系统是基于springboot+Vue2整套技术体系开发，数据库使用Mysql 5.7，服务器使用Nginx。权限管理使用shiro，验证码会话等分布存储使用redis实现，接入了企业微信第三方登录等功能。文件存储主要使用webdav+rclone实现异地同步存储和定时备份。前端为AntDesgin + VXE-table实现增删改查表单等功能。流程引擎为手动实现的简易版流程。"
+            "project_content":"在项目中主要负责项目的框架的架构，产品设计沟通，前后端的主要开发者和存储方案的设计，此OA系统是基于springboot+Vue2整套技术体系开发，数据库使用Mysql 5.7，服务器使用Nginx。权限管理使用shiro，验证码会话等分布存储使用redis实现，接入了企业微信第三方登录等功能。文件存储主要使用webdav+rclone实现异地同步存储和定时备份。前端为AntDesgin + VXE-table实现增删改查表单等功能。流程引擎为手动实现的简易版流程。"
         },
         {
             "project_name": "原配救星论坛",
             "project_role": "主要负责人",
-            "project_time": "2021 - 至今",
+            "project_time": "2022 - 至今",
             "project_desc": "小三克星由扬华律师事务所建立，主要帮助原配夫人提供法律援助。目前日均各端访问量600+，总用户数3600+",
-            "project_content": "目前已经同时上架PC，H5，微信小程序，字节小程序。后端使用discuzQ二次开发，技术架构为symfony，微信小城使用taro实现，web端基于react开发，字节小程序端使用uniapp开发。"
+            "project_content": "项目为独立完成，目前已经同时上架PC，H5，微信小程序，字节小程序。后端使用discuzQ二次开发，开发语言为php技术架构为symfony，微信小城使用taro实现，web端基于react开发，字节小程序端使用uniapp开发。"
+        },
+        {
+            "project_name":"大学数学教学电子竞技平台",
+            "project_role":"主要负责人",
+            "project_time":"2020 - 2021",
+            "project_desc":"大学数学教学电子竞技平台,其特征在于,主要包括精、互、同三大模块,所述精模块为竞技模块,所述互模块为互动模块,所述同为融合模块,所述平台的构建由前端、后端、前后端交互三个部分构成。",
+            "project_content":"产品为叶慧教授设计，我为主要负责人。项目中前端为使用Vue2+ElementUi实现，后端使用Springboot技术栈实现，已经申请发明专利及软著，发明申请号：2020100122108, 公告号：CN111158668A。"
         }
     ],
     "workList": [],
     "aboutme": {
-        "aboutme_desc": "🌱 全栈开发工程师，熟悉前后端软件开发技术栈。熟悉图像合成和计算机视觉算法。\n 1. 语言方面：对Java和JavaScript的开发流程及生态环境尤为熟悉，其余语言如python/C++/win32汇编/VBS/php等均有项目使用案例。\n 2. 项目方面: 具有独立跟进和推动项目进度经验，熟练使用GIT，熟悉常见的互联网项目生态，具有特别强的代码阅读能力，擅长二次开发，可以独立把控研发交付进展。\n 3. 技能方面: 熟悉表单工作流等增删改查，熟悉MYSQL+Mongodb数据库，熟悉程序/协议逆向，熟悉在线项目远程DEBUG纠错，熟悉软件发布流程，熟悉缓存中间件的使用场景，熟悉HTTP协议，gRPC，websocket等协议。\n 4. 工作方面：读书期间参与创业，加入过很多团队，有丰富的交流经验，为多家企业解决过技术难题。 "
+        "aboutme_desc": "🌱 全栈开发工程师，熟悉前后端软件开发技术栈。熟悉图像合成和计算机视觉算法。\n 1. 语言方面：对Java和JavaScript的开发流程及生态环境尤为熟悉，其余语言如python/C++/win32汇编/VBS/php等均有项目使用案例。\n 2. 项目方面: 具有独立跟进和推动项目进度经验，熟练使用GIT，熟悉常见的互联网项目，具有特别强的代码阅读能力，擅长二次开发，可以独立把控研发交付进展。\n 3. 技能方面: 熟悉表单工作流等增删改查，熟悉MYSQL+Mongodb数据库，熟悉程序逆向和协议逆向，熟悉在线项目远程DEBUG纠错，熟悉软件发布流程，熟悉redis缓存中间件的使用场景和常见问题，熟悉HTTP协议，gRPC，websocket等协议。\n 4. 工作方面：读书期间参与创业，加入过很多团队，有丰富的交流经验，为多家企业解决过技术难题。 "
     },
     "theme": {
         "color": "#2f5785",
