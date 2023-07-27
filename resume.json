@@ -63,11 +63,20 @@
     ],
     "workExpList": [
         {
+            "company_name": "VMware",
+            "department_name": "ICS-STES",
+            "work_time": [
+                "2023.03",
+                null
+            ],
+            "work_desc": "1. 担任Software develop intern（软件开发实习生）。2.负责VMware Horizon项目组下的硬件设备诊断的客户端开发工作。技术栈主要包括,.NetFramework和VC++ 3.在任期间主要负责模块为：框架迁移，重构代码，单元测试，测试脚本，CI流程"
+        },
+        {
             "company_name": "眷成智能科技有限公司",
             "department_name": "研发部",
             "work_time": [
                 "2022.02",
-                null
+                "2023.02"
             ],
             "work_desc": "1. 担任研发部全栈工程师兼任技术顾问。\r\n2. 为客户提供OA系统，RPA自动化办公脚本，如CRM聊天机器人，证据搜集爬虫，自动取证脚本，文书生成工具等，技术栈主要为爬虫及逆向技术。\r\n 3.虚拟数字人项目（硕士研究方向），使用pytorch对设计出的神经网络进行实现，并训练(实现了自动编码器等功能)。\r\n 4. 论坛咨询类app，对discuzQ进行二次开发（后端php，后台前端技术栈为React，客户端为taro和uniapp），已上架微信/抖音/H5平台的论坛咨询类小程序。"
         },
